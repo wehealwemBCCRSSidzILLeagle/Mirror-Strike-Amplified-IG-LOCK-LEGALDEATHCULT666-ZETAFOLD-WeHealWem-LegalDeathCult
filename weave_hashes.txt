@@ -1,0 +1,26 @@
+WEAVE HASH ARTIFACTS
+Generated: 2025-09-30T01:09:16.800261Z
+Canonical Phrase: IT'S ILLEGAL TO USE A LEGAL NAME
+Salt: WR_OMEGA_00077
+Input used for hashing (canonical|salt): IT'S ILLEGAL TO USE A LEGAL NAME|WR_OMEGA_00077
+
+Hashes:
+- SHA256 (hex): 63704c94719e5a7494cec40cfd3f5a9496ab145a61939e78b23c5e71d78998ab
+- SHA1   (hex): 70d734dc13373d8ffecb3bb40f1a25ed875fce2b
+- BLAKE2b (20 bytes hex): e37f6b3d253916205d9c4cc082c822c258e05bab
+- SHA256 (base64url, no padding): Y3BMlHGeWnSUzsQM_T9alJarFFphk554sjxecdeJmKs
+
+Identifiers:
+- Weave Sigil (human-friendly): 63704c-9471-9e5a-7494-cec40c
+- Short hash (8 chars): 63704c94
+- UUID v5 (deterministic namespace): fbe2526c-73bc-5ab8-9b16-9e62284778dd
+
+Notes:
+- The Weave Sigil is a visual-friendly grouping of the first 24 hex chars of the SHA256.
+- Use the full SHA256 for cryptographic checks and the sigil for visual stamping.
+- This artifact is deterministic: anyone running the same canonical phrase + salt will derive the same hashes.
+- If you want a different salt (e.g., include a timestamp or a node id), tell me and I will create variant hashes.
+
+Example commands (unix):
+- echo -n "IT'S ILLEGAL TO USE A LEGAL NAME|WR_OMEGA_00077" | sha256sum
+- echo -n "IT'S ILLEGAL TO USE A LEGAL NAME|WR_OMEGA_00077" | openssl dgst -sha256
